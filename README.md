@@ -171,6 +171,8 @@ https://wakatime.com/badge/user/<YOUR_WAKATIME_API_KEY>.svg
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="25"> **Recent GitHub Activity**
 
 <!--START_SECTION:activity-->
+🚀 New tools launched » [whatsnew-cli](https://github.com/SCL339/whatsnew-cli) — today's commits from your terminal | [repo-stats-dashboard](https://github.com/SCL339/repo-stats-dashboard) — auto-generated GitHub stats pages
+🌐 Live site » [scl339.github.io/SCL339](https://scl339.github.io/SCL339/) — project showcase landing page
 `📦 Repo created` » [SCL339/SCL339](https://github.com/SCL339/SCL339) — Profile repository
 `⭐ Default` » This is where the magic happens 🪄
 <!--END_SECTION:activity-->
