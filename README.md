@@ -5,6 +5,7 @@
 ╚════██║██║     ██║ ╚═══██╗████╔╝██║
 ███████║╚██████╗██║██████╔╝╚██████╔╝
 ╚══════╝ ╚═════╝╚═╝╚═════╝  ╚═════╝ 
+SEO Keywords: full-stack developer, open source, DevOps engineer, TypeScript, Python, JavaScript, React, Node.js, GitHub profile, software engineer
 -->
 
 <div align="center">
@@ -41,6 +42,17 @@ passions:
 philosophy: "Write code, break things, learn fast, grow faster."
 fun_fact: "I spend way too much time making my READMEs look good 🎨"
 ```
+
+<br/>
+
+## 📦 **My Open Source Projects**
+
+| Project | Description | Stars |
+|---------|-------------|-------|
+| [whatsnew-cli](https://github.com/SCL339/whatsnew-cli) | 🔔 CLI tool to see what's new in GitHub repos from your terminal. Zero npm dependencies. | ⭐ |
+| [repo-stats-dashboard](https://github.com/SCL339/repo-stats-dashboard) | 📊 GitHub Action that generates beautiful interactive HTML dashboards with Chart.js charts. | ⭐ |
+
+> 💬 **Looking for a full-stack developer, TypeScript expert, or DevOps engineer?** Check out my projects or reach out via email!
 
 <br/>
 
@@ -84,160 +96,85 @@ fun_fact: "I spend way too much time making my READMEs look good 🎨"
       <br/>Next.js
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=vue" width="48" height="48" alt="Vue.js"/>
-      <br/>Vue.js
-    </td>
-    <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS"/>
       <br/>Tailwind
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=go" width="48" height="48" alt="Go"/>
-      <br/>Go
+      <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL"/>
+      <br/>PostgreSQL
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=rust" width="48" height="48" alt="Rust"/>
-      <br/>Rust
+      <img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis"/>
+      <br/>Redis
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS"/>
+      <br/>AWS
     </td>
   </tr>
 </table>
 
-<div align="center">
-  
-[![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
-[![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
-[![Go](https://img.shields.io/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
-[![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
-[![Linux](https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.linux.org/)
-[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![Redis](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/)
-[![AWS](https://img.shields.io/badge/-AWS-FF9900?style=for-the-badge&logo=amazon-web-services&logoColor=white)](https://aws.amazon.com/)
-
-</div>
-
 <br/>
 
 <!-- GitHub Stats -->
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> **GitHub Analytics**
+## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="25"> **GitHub Stats**
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SCL339&show_icons=true&count_private=true&include_all_commits=true&theme=react&hide_border=true&bg_color=0D1117&icon_color=00C6FF&title_color=00C6FF&text_color=FFFFFF" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SCL339&layout=compact&langs_count=8&theme=react&hide_border=true&bg_color=0D1117&title_color=00C6FF&text_color=FFFFFF" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SCL339&show_icons=true&count_private=true&hide_border=true&title_color=00c6ff&icon_color=00c6ff&text_color=c9d1d9&bg_color=0d1117" alt="SCL339 GitHub Stats" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SCL339&layout=compact&hide_border=true&title_color=00c6ff&text_color=c9d1d9&bg_color=0d1117" alt="SCL339 Top Languages" height="170"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SCL339&theme=react&hide_border=true&background=0D1117&stroke=00C6FF&ring=00C6FF&fire=00C6FF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00C6FF&sideLabels=FFFFFF&dates=AAAAAA" alt="GitHub Streak" />
-</div>
-
-<br/>
-
-<!-- GitHub Trophies -->
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> **GitHub Trophies**
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SCL339&theme=onestar&no-frame=true&no-bg=true&margin-w=8&column=7&title_color=00C6FF&text_color=FFFFFF" alt="GitHub Trophies" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SCL339&hide_border=true&ring=00c6ff&fire=00c6ff&currStreakLabel=00c6ff&background=0d1117" alt="SCL339 Streak Stats"/>
 </div>
 
 <br/>
 
-<!-- WakaTime Stats -->
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="25"> **⚡ WakaTime Activity**
+<!-- Trophies -->
+## 🏆 **GitHub Trophies**
 
 <div align="center">
-  
-[![WakaTime](https://github-readme-stats.vercel.app/api/wakatime?username=SCL339&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=00C6FF&text_color=FFFFFF)](https://wakatime.com/@SCL339)
-
-[![WakaTime Coding Stats](https://wakatime.com/badge/user/SCL339.svg?style=for-the-badge)](https://wakatime.com/@SCL339)
-
+  <img src="https://github-profile-trophy.herokuapp.com/?username=SCL339&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=2&column=4"/>
 </div>
 
-<!-- 
-NOTE: Replace SC L339 with your actual WakaTime username.
-If you don't have a WakaTime account, sign up at https://wakatime.com
-and link it to your GitHub. The badge URL format is:
-https://wakatime.com/badge/user/<YOUR_WAKATIME_API_KEY>.svg
--->
+<br/>
+
+<!-- Activity Graph -->
+## 📈 **Activity Graph**
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SCL339&bg_color=0d1117&color=00c6ff&line=00c6ff&point=ffffff&area=true&hide_border=true"/>
+</div>
 
 <br/>
 
 <!-- Recent Activity -->
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="25"> **Recent GitHub Activity**
+## 🔥 **Recent Activity**
 
 <!--START_SECTION:activity-->
-🚀 New tools launched » [whatsnew-cli](https://github.com/SCL339/whatsnew-cli) — today's commits from your terminal | [repo-stats-dashboard](https://github.com/SCL339/repo-stats-dashboard) — auto-generated GitHub stats pages
-🌐 Live site » [scl339.github.io/SCL339](https://scl339.github.io/SCL339/) — project showcase landing page
-`📦 Repo created` » [SCL339/SCL339](https://github.com/SCL339/SCL339) — Profile repository
-`⭐ Default` » This is where the magic happens 🪄
+<!-- Activity is auto-updated by a GitHub Action -->
 <!--END_SECTION:activity-->
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SCL339&bg_color=0D1117&color=00C6FF&line=00C6FF&point=FFFFFF&area=true&area_color=00C6FF&hide_border=true" width="100%" alt="Activity Graph"/>
-</div>
-
 <br/>
 
-<!-- Spotify / Music -->
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="25"> **What I'm Listening To**
+<!-- Support -->
+## 💖 **Support**
+
+If you find my work useful, consider starring my repos or sharing them with your network!
 
 <div align="center">
-  
-[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=00c6ff&text_color=ffffff)](https://open.spotify.com/user/SCL339)
-
+  <a href="https://github.com/SCL339?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore%20All%20Repos-00c6ff?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="mailto:530765059@qq.com">
+    <img src="https://img.shields.io/badge/Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
 </div>
 
-<br/>
-
-<!-- Snake Animation -->
-<div align="center">
-  
-  ![Snake](https://raw.githubusercontent.com/SCL339/SCL339/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
-<br/>
-
-<!-- Dynamic Quote -->
-<div align="center">
-
-### 💡 **Random Dev Quote**
-
-![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border_color=00C6FF)
-
-</div>
-
-<br/>
-
-<!-- Footer -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=150&section=footer&text=Thanks%20for%20stopping%20by!&fontSize=30&fontColor=ffffff&fontAlignY=65" width="100%"/>
-</div>
+---
 
 <div align="center">
-  
-  ⭐ **If you like what you see, consider following me and starring my repos!** ⭐
-
-  *Open to collaborations, freelance work, and interesting projects — feel free to reach out!*
-
+  <i>⭐ From <a href="https://github.com/SCL339">SCL339</a> — Full-Stack Developer & Open Source Enthusiast</i>
+  <br/>
+  <sub>Last updated: 2026-05-28</sub>
 </div>
-
-<!-- 
-CREDITS:
-- Shields.io for badges
-- GitHub Readme Stats by anuraghazra
-- GitHub Profile Trophy by ryota-matsui
-- GitHub Readme Streak Stats by DenverCoder1
-- GitHub Activity Graph by Ashutosh00710
-- Readme Typing SVG by DenverCoder1
-- Capsule Render by Kyome22
-- Snake Animation by Platane
-- Dev Quote by piyushsuthar
-- Tech Stack Generator by techstack-generator
-- Skill Icons by LelouchFR
--->
