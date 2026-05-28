@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SCL339 — Developer &amp; Open Source Creator</title>
+  <meta name="description" content="SCL339 — Full-stack developer building CLI tools, GitHub Actions, and open-source utilities." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>" />
+  <style>
+    :root {
+      --bg: #0d1117; --bg-card: #161b22; --border: #30363d;
+      --text: #e6edf3; --text-muted: #8b949e;
+      --accent: #00c6ff; --accent2: #0072ff;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.6;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .hero {
+      text-align: center; padding: 4rem 1.5rem 3rem;
+      background: linear-gradient(135deg, rgba(0,198,255,0.08), rgba(0,114,255,0.12));
+      border-bottom: 1px solid var(--border);
+    }
+    .hero h1 {
+      font-size: 2.8rem; font-weight: 700;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text; margin-bottom: 0.5rem;
+    }
+    .hero p.subtitle {
+      font-size: 1.2rem; color: var(--text-muted);
+      max-width: 600px; margin: 0 auto 1.5rem;
+    }
+    .hero .tagline {
+      display: inline-block; background: rgba(0,198,255,0.12);
+      border: 1px solid rgba(0,198,255,0.3); border-radius: 2rem;
+      padding: 0.4rem 1.2rem; font-size: 0.9rem; color: var(--accent);
+    }
+    .cta-buttons { margin-top: 2rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.7rem 1.6rem; border-radius: 6px; font-weight: 600;
+      font-size: 0.95rem; transition: all 0.2s; border: 1px solid var(--border);
+    }
+    .btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #fff !important; border: none; }
+    .btn-primary:hover { opacity: 0.9; transform: translateY(-1px); text-decoration: none; }
+    .btn-outline { background: transparent; color: var(--text) !important; }
+    .btn-outline:hover { background: var(--bg-card); text-decoration: none; }
+    .stats-bar {
+      display: flex; justify-content: center; gap: 3rem;
+      padding: 1.5rem; background: var(--bg-card); border-bottom: 1px solid var(--border); flex-wrap: wrap;
+    }
+    .stat-item { text-align: center; }
+    .stat-item .number { font-size: 1.6rem; font-weight: 700; color: var(--accent); }
+    .stat-item .label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+    .section { max-width: 960px; margin: 0 auto; padding: 3rem 1.5rem; }
+    .section-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.5rem; }
+    .section-title .icon { font-size: 1.4rem; }
+    .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.2rem; }
+    .project-card {
+      background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px;
+      padding: 1.5rem; transition: border-color 0.2s, transform 0.2s;
+    }
+    .project-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .project-card h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+    .project-card h3 a { color: var(--text); }
+    .project-card h3 a:hover { color: var(--accent); }
+    .project-card p { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.8rem; }
+    .project-card .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .project-card .tag {
+      font-size: 0.75rem; background: rgba(0,198,255,0.1); color: var(--accent);
+      padding: 0.2rem 0.6rem; border-radius: 3px; border: 1px solid rgba(0,198,255,0.2);
+    }
+    .tech-list { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .tech-item { background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px; padding: 0.4rem 0.9rem; font-size: 0.85rem; }
+    footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; }
+    footer .social-links { display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 1rem; }
+    footer .social-links a { color: var(--text-muted); font-size: 0.9rem; }
+    footer .social-links a:hover { color: var(--accent); }
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 2rem; } .hero { padding: 2.5rem 1rem 2rem; }
+      .stats-bar { gap: 1.5rem; } .projects-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<section class="hero">
+  <div class="tagline">🚀 Open Source Developer</div>
+  <h1>SCL339</h1>
+  <p class="subtitle">Building CLI tools, GitHub Actions, and developer utilities that save time.</p>
+  <div class="cta-buttons">
+    <a href="https://github.com/SCL339" class="btn btn-primary">🐙 GitHub Profile</a>
+    <a href="https://github.com/SCL339/whatsnew-cli" class="btn btn-outline">🔔 whatsnew CLI</a>
+    <a href="https://github.com/SCL339/repo-stats-dashboard" class="btn btn-outline">📊 Stats Dashboard</a>
+  </div>
+</section>
+<section class="stats-bar">
+  <div class="stat-item"><div class="number">3</div><div class="label">Public Repos</div></div>
+  <div class="stat-item"><div class="number">2</div><div class="label">Tools Shipped</div></div>
+  <div class="stat-item"><div class="number">0</div><div class="label">npm Deps</div></div>
+  <div class="stat-item"><div class="number">MIT</div><div class="label">License</div></div>
+</section>
+<section class="section" id="projects">
+  <h2 class="section-title"><span class="icon">📦</span> Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3><a href="https://github.com/SCL339/whatsnew-cli">🔔 whatsnew-cli</a></h3>
+      <p>Check what's new in your GitHub repos — today's commits and recent activity from your terminal. Zero npm dependencies.</p>
+      <div class="tags"><span class="tag">CLI</span><span class="tag">Node.js</span><span class="tag">GitHub API</span><span class="tag">Zero-deps</span></div>
+    </div>
+    <div class="project-card">
+      <h3><a href="https://github.com/SCL339/repo-stats-dashboard">📊 repo-stats-dashboard</a></h3>
+      <p>Docker-based GitHub Action that generates beautiful HTML dashboards of repo stats (stars, issues, PRs, commits) with Chart.js charts. Ready for GitHub Pages.</p>
+      <div class="tags"><span class="tag">GitHub Action</span><span class="tag">Docker</span><span class="tag">Python</span><span class="tag">Chart.js</span><span class="tag">Pages</span></div>
+    </div>
+    <div class="project-card">
+      <h3><a href="https://github.com/SCL339/SCL339">✨ SCL339/profile</a></h3>
+      <p>Auto-updating GitHub profile README with stats, tech stack, trophies, activity graph, and more.</p>
+      <div class="tags"><span class="tag">Profile</span><span class="tag">README</span><span class="tag">GitHub</span></div>
+    </div>
+  </div>
+</section>
+<section class="section" id="tech">
+  <h2 class="section-title"><span class="icon">🛠️</span> Tech Stack</h2>
+  <div class="tech-list">
+    <span class="tech-item">JavaScript</span><span class="tech-item">TypeScript</span><span class="tech-item">Python</span>
+    <span class="tech-item">Node.js</span><span class="tech-item">React</span><span class="tech-item">Go</span>
+    <span class="tech-item">Docker</span><span class="tech-item">GitHub Actions</span><span class="tech-item">Chart.js</span>
+    <span class="tech-item">REST APIs</span><span class="tech-item">Linux</span><span class="tech-item">PostgreSQL</span>
+  </div>
+</section>
+<footer>
+  <div class="social-links">
+    <a href="https://github.com/SCL339">GitHub</a>
+    <a href="mailto:530765059@qq.com">Email</a>
+    <a href="https://github.com/SCL339?tab=repositories">Repos</a>
+  </div>
+  <p>&copy; 2026 SCL339. Built with ☕ and open source.</p>
+</footer>
+</body>
+</html>
